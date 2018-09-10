@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+body{
+    background-color: white;
+    font: 14px ΢���ź�,����,Verdana,Arial,sans-serif;
+    color: #333333;
+    border-top: 8px solid #006f47;
+}
+ul{
+    list-style-type: none;
+}
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+.top-header{
+    margin: 10px 0;
+    height: 120px;
+}
+.starbucks-logo{
+    float: left;
+    margin-left: 20px;
+}
+.top-menu{
+    float: left;
+    margin-top: 83px;
+    margin-left: 30px;
+}
+li{
+    display:inline ;
+    background-color: #efe5d0;
+    padding: 5px 10px;
+    margin:0 5px;
+}
+ a:link,a:visited{
+    text-decoration: none;
+    color: #006f47;
+    font-size: bold;
+}
+ .selected{
+     background-color: #c8b99c;
+ }
+.left-aside{
+    float: left;
+    width: 350px;
+}
+.news p{
+    line-height: 1.8em;
+}
+.news a{
+    text-decoration: none;
+    color: #006f47;
+}
+.drinks figure{
+    float: left;
+}
+.drinks figure img{
+    width: 141px;
+    height: 158px;
+    border:2px solid #ffffff;
+}
+.drinks figcaption{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.figure-r{
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+
+.left-aside section{
+    background: #efe5d0 url(images/background.gif)top left;
+    padding: 20px;
+    margin-bottom: 10px}
+.left-aside h3{
+    color:#006f47;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+main{
+    background: url(images/background.gif)top left;
+    padding: 20px;
+    margin-left: 360px;
+}
+main article{
+    border-bottom: 1px dashed #c8b99c;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+main article h3{
+    color: #006f47;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+main article time{
+    color: #c8b99c;
+}
+main article p{
+    font-size: 1.2em;
+    text-indent: 30px;
+    margin:10px 0;
+}
+main article b{
+    font-weight: bold;
+    color: #675c47;
+}
+main article small{
+    color: #808080;
+    font-size: 0.8em;
+}
+.fucker{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.page-footer{
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #675c47;
+    color: darkblue;
+    font-size: 90%;
+}
